@@ -7,7 +7,7 @@ from datetime import datetime
 # object transaction is inside a block.
 
 # A block can have many transaction objects, the list 'pending transactions' # contains all un-mined transactions which
-# are then all added to a block when a block in mined
+# are then all added to a block when a block is mined
 
 class Transaction:
     """
