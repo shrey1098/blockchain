@@ -1,8 +1,7 @@
 import datetime
-import random
 from hashlib import sha256 as sha256
 from datetime import datetime
-from ecdsa import SigningKey, SECP256k1
+
 
 
 # object transaction is inside a block.
