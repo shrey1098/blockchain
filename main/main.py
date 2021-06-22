@@ -1,9 +1,7 @@
 from ecdsa import SigningKey
 from blockchain import blockChain, Transaction
 
-myKey = SigningKey.from_pem(b'-----BEGIN EC PRIVATE KEY-----\nMHQCAQEEIIjiERxAewTApOl2QAnFHgSWxKYIOqp/j5ulvPl'
-                            b'/jBgNoAcGBSuBBAAK\noUQDQgAEZgYtlqo5oXj8xI+YeYRfPwEqqzFgDlodQ3/wuCEMG2flFSEmlc1EVcjN'
-                            b'\ng1wFDPSC61g62ixhrWQ+AgKHErW7Ug==\n-----END EC PRIVATE KEY-----\n')
+myKey = SigningKey.from_pem("key goes here")
 walletKey = myKey.verifying_key
 
 coin = blockChain()
